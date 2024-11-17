@@ -1043,9 +1043,9 @@ Home Section style
   font-weight: 700;
   line-height: 6.5rem;
   color: #666;
-  animation-name: opacity;
+  /* animation-name: opacity;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -1068,7 +1068,7 @@ Home Section style
   }
 }
 
-@keyframes opacity {
+/*@keyframes opacity {
   0%,
   100% {
     opacity: 0;
@@ -1076,7 +1076,7 @@ Home Section style
   50% {
     opacity: 1;
   }
-}
+}*/
 
 /*
 About section style
