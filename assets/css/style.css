@@ -771,7 +771,7 @@ textarea::-ms-input-placeholder {
 /*Preloader css*/
 
 #loading {
-  background-color: #f7cbc4;
+  background-color: #4270a3;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -1634,7 +1634,7 @@ Footer Section style
 }
 
 .navbar-nav a:hover {
-  color: orange !important;
+  color: rgb(0, 123, 255) !important;
   outline: none !important;
   text-decoration: none !important;
 }
