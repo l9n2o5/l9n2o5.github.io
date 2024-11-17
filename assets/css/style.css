@@ -1012,7 +1012,7 @@ Nav Menu style
 }
 @media only screen and (max-width: 991px) {
   .logo {
-    position: fixed;
+    position: relative;
     top: 2vh;
   }
 }
@@ -1547,7 +1547,7 @@ Footer Section style
   width: 30px;
   height: 30px;
   border-radius: 15px;
-  opacity: 0.3;
+  opacity: 1;
   position: fixed;
   bottom: 20px;
   right: 25px;
