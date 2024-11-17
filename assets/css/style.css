@@ -1012,7 +1012,7 @@ Nav Menu style
 }
 @media only screen and (max-width: 991px) {
   .logo {
-    position: relative;
+    position: fixed;
     top: 2vh;
   }
 }
@@ -1538,7 +1538,7 @@ Footer Section style
 
 .main_footer i {
   padding: 0px 5px;
-  color: #ff0000;
+  color: #4270a3;
 }
 
 /* scrollup */
