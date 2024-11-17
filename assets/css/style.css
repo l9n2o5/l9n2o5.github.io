@@ -1068,7 +1068,7 @@ Home Section style
   }
 }
 
-/*@keyframes opacity {
+@keyframes opacity {
   0%,
   100% {
     opacity: 0;
@@ -1076,7 +1076,7 @@ Home Section style
   50% {
     opacity: 1;
   }
-}*/
+}
 
 /*
 About section style
