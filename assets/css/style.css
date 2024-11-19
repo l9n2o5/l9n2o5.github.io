@@ -9,7 +9,7 @@ body {
   margin-right: 0;
   font-weight: 400;
   width: 100%;
-  font-family: "Alegreya", serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 /*------------------------------------------------------------------*/
@@ -1048,7 +1048,7 @@ Home Section style
 }
 
 .home_text h1 {
-  font-family: "Alegreya", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 4.286rem;
   font-weight: 700;
   line-height: 6.5rem;
