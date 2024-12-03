@@ -328,6 +328,7 @@ Separator
   height: 4px;
   margin: 10px 0px;
   background: #4270a3;
+  border-radius: 5px;
 }
 
 .separator_auto {
