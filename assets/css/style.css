@@ -321,7 +321,7 @@ Separator
 .separator_left {
   width: 130px;
   height: 4px;
-  margin: 5px 5px;
+  margin: 10px 0px;
   background: #4270a3;
   border-radius: 5px;
 }
