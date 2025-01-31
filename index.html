@@ -1,88 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Lan Zhang | ETH Zürich</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <head>
+		<meta charset="utf-8">
+		<title> Lan Zhang | ETH Zürich </title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="favicon.ico">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
-    
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+		<!--Google Font link-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome & Icons -->
-    <script src="https://kit.fontawesome.com/9b30ae05d8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg navbar-fixed no-background bootsnav">
-        <div class="container">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
-                <span></span><span></span><span></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#summaries">Summaries</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+		<link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/slick-theme.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/fonticons.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/bootsnav.css">
+	
+		<!--Theme Responsive css-->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <section id="home" class="home bg-mega">
-        <div class="container text-center">
-            <h1>Welcome</h1>
-            <div class="widget_home_sociallinks">
-                <ul class="list-inline">
-                    <li><a href="#" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                    <li><a href="mailto:lazhang@ethz.ch" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
-                    <li><a href="https://github.com/l9n2o5" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
-                    <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+		<!--Theme custom css -->
+		<link rel="stylesheet" href="assets/css/style.css">
 
-    <section id="about" class="about container py-5">
-        <h2>About Me</h2>
-        <p>Hi, I am Lan Zhang, an undergraduate at ETH Zürich studying Electrical Engineering and Information Technology.</p>
-    </section>
+		<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<script src="https://kit.fontawesome.com/9b30ae05d8.js" crossorigin="anonymous"></script>
+	</head>
+    <body data-target=".navbar-collapse">
+		<!-- Preloader -->
+		<!--<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_one"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_four"></div>
+				</div>
+			</div>
+		</div>-->
+		<!--End of Preloader -->
+		<div class="culmn" role="main">
+			<!--Home page style-->
+			<nav class="navbar navbar-light navbar-expand-lg  navbar-fixed #F7CBC4 no-background bootsnav">
+				<div class="container">
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" aria-label="Menu" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+	                            <span></span>
+	                            <span></span>
+	                            <span></span>
+	                    </button>
 
-    <section id="summaries" class="container py-5">
-        <h2>Summaries</h2>
-        <p>Below are summaries I created during my studies. These are not guaranteed to be entirely correct or complete and are based on lecture materials or notes.</p>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Subject</th>
-                    <th>Semester</th>
-                    <th>Course</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>PHYS</td><td>HS24</td><td><a href="assets/files/PhysikIIZF.pdf">Physics II</a></td></tr>
-                <tr><td>MATH</td><td>FS24</td><td><a href="assets/files/KomplexeAnalysisZF.pdf">Complex Analysis</a></td></tr>
-                <tr><td>PHYS</td><td>FS24</td><td><a href="assets/files/PhysikIZF.pdf">Physics I</a></td></tr>
-            </tbody>
-        </table>
-    </section>
+						<a class="navbar-brand" href="#home" aria-label="Back to main content">
+	                        <!--<img src="" class="logo logo-display" alt="logo">-->
+	                    </a>
+					</div>
+					<!-- End Header Navigation -->
 
-    <footer class="footer bg-black text-center py-3">
-        <p>&copy; 2024 Lan Zhang. All Rights Reserved.</p>
-    </footer>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#research">Research</a></li>
+							<li><a href="#portfolio">Projects</a></li>
+							<li><a href="#other">Other Works</a></li>
+							<!-- <li><a href="" class="cv" target="_blank">CV</a></li> -->
+							<!-- <li><a href="#contact">Find me</a></li> -->
+						</ul>
+					</div>
+					<!-- navbar-collapse -->
+				</div>
+			</nav>
 
-    <!-- JS Includes -->
-    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>lucide.createIcons();</script>
-</body>
+			<!--Home Sections-->
+			<section id="hello" class="home bg-mega">
+				<div class="container">
+					<div class="main_home">
+						<div class="home_text">
+							<h1>Welcome<br/></h1>
+						</div>
+			
+						<div class="widget_home_sociallinks">
+							<ul class="list-inline-item">
+								<li><a href="" aria-label="link to google scholar" target="_blank"><i data-lucide="graduation-cap"></i></a></li>
+								<li><a href="mailto:lazhang@ethz.ch" aria-label="link to mail" target="_blank"><i data-lucide="mail"></i></a></li>
+								<li><a href="https://github.com/l9n2o5" aria-label="link to github" target="_blank"><i data-lucide="github"></i></a></li>
+								<li><a href="" aria-label="link to linkedin" target="_blank"><i data-lucide="linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--End of container -->
+			</section>
+			<!--End of Home Sections-->
+
+			<!--About Sections-->
+			<section id="about" class="about roomy-100">
+				<div class="container">
+					<div id="main_about">
+						<div id ="about_header">
+							<h2>About Me</h2>
+							<div class="separator_left"></div>
+						</div>
+						<div id ="about_content" class = 'text-black'>
+							<p> Hi, I am Lan Zhang, currently an undergraduate at ETH Zürich pursuing a degree in Electrical Engineering and Information Technology. </p>
+						</div>
+						<div id="about_img">
+							<!-- <img src="assets/images/me.png" alt="my portrait 1">-->
+						</div>
+					</div>
+				</div>
+				<!--End of container -->
+			
+			<section id="other" class="portfolio roomy-100" >
+				<div class="container">
+					<div class="col-md-10 mr-md-auto ml-md-auto">
+						<h2>Summaries</h2>
+						<div class="separator_auto"></div>
+						<div class="col-md-5 col-sm-0"></div>
+						<p class = 'text-black'> 
+							Below you can find summaries I created during my studies. 
+							Please note that these are not guaranteed to be entirely correct or complete.
+							In addition, they are based on lecture materials or notes for which I do not own the rights. 
+						</p>
+						<table class="table">
+							<thead>
+							  <tr>
+								<th scope="col">Subject</th>
+								<th scope="col">Semester</th>
+								<th scope="col">Course</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>PHYS</td>
+								<td>HS24</td>
+								<td><a href="assets/files/PhysikIIZF.pdf">Physics II</a></td>
+							  </tr>
+							  <tr>
+								<td>MATH</td>
+								<td>FS24</td>
+								<td><a href="assets/files/KomplexeAnalysisZF.pdf">Complex Analysis</a></td>
+							  </tr>
+							  <tr>
+								<td>PHYS</td>
+								<td>FS24</td>
+								<td><a href="assets/files/PhysikIZF.pdf">Physics I</a></td>
+							  </tr>
+							</tbody>
+						</table>
+				</div>
+			</div>
+			</section>
+			<!-- scroll up-->
+			<div class="scrollup">
+				<a href="#" aria-label="back to content"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+			</div>
+			<!-- End of scroll up -->
+		</div>
+		<footer id="footer" class="footer bg-black">
+			<div class="container">
+				<div class="row">
+					<div class="main_footer text-center p-top-40 p-bottom-30">
+						<p class="wow fadeInRight" data-wow-duration="1s">
+							<i class="fa fa-star"></i> by
+							Lan 2024. All Rights Reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	<!-- JS includes -->
+		<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/vendor/popper.min.js"></script>
+		<script src="assets/js/vendor/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.js"></script>
+		<script src="assets/js/jquery.easing.1.3.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/jquery.collapse.js"></script>
+		<script src="assets/js/bootsnav.js"></script>
+		<script src="assets/js/plugins.js"></script>
+		<script src="assets/js/main.js"></script>
+		 <script src="https://unpkg.com/lucide@latest"></script>
+		<script>
+			lucide.createIcons();
+		</script>
+	</body>
 </html>
