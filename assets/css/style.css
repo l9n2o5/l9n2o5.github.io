@@ -320,8 +320,8 @@ Separator
 
 .separator_left {
   width: 130px;
-  height: 4px;
-  margin: 10px 0px;
+  height: 2px;
+  margin: 0px 0px;
   background: #4270a3;
   border-radius: 5px;
 }
