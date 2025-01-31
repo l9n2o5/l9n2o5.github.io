@@ -720,7 +720,7 @@ textarea::-ms-input-placeholder {
 
 /*for image bg*/
 
-.img-bg{
+/*.img-bg{
   background: url(../images/1.jpg) no-repeat center top fixed;
   background-size
   -moz-background-size: cover;
@@ -729,7 +729,7 @@ textarea::-ms-input-placeholder {
   background-size: cover;
   width: 100%;
   overflow: hidden;
-}
+}*/
 
 .transform_scal_rotate:hover img {
   -webkit-transform: scale(1.1) rotate(4deg);
