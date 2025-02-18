@@ -1837,14 +1837,3 @@ a:hover {
   font-weight: 600;
   color: #4270a3;
 }
-
-.exercise_text h1 {
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 4.286rem;
-  font-weight: 700;
-  line-height: 6.5rem;
-  color: #666;
-  /* animation-name: opacity;
-  animation-duration: 2s;
-  animation-iteration-count: infinite; */
-}
