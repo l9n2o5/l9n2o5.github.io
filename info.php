@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport">
-  <title>Lan Zhang</title>
-  <link rel="stylesheet" href="styles.css" content="width=device-width, initial-scale=1.0">
-  <?php require 'process.php'; ?>
-</head>
+		<meta charset="utf-8">
+		<title> Lan Zhang | ETH Zürich </title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="favicon.ico">
+    <?php require 'process.php'; ?>
+
+		<!--Google Font link-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/slick-theme.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/fonticons.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/bootsnav.css">
+	
+		<!--Theme Responsive css-->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+
+		<!--Theme custom css -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<script src="https://kit.fontawesome.com/9b30ae05d8.js" crossorigin="anonymous"></script>
+	</head>
+    <body data-target=".navbar-collapse">
+		<!-- Preloader -->
+		<!--<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_one"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_four"></div>
+				</div>
+			</div>
+		</div>-->
+		<!--End of Preloader -->
+		<div class="culmn" role="main">
+			<!--Home page style-->
+			<nav class="navbar navbar-light navbar-expand-lg  navbar-fixed #F7CBC4 no-background bootsnav">
+				<div class="container">
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" aria-label="Menu" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+	                            <span></span>
+	                            <span></span>
+	                            <span></span>
+	                    </button>
+
+						<a class="navbar-brand" href="#home" aria-label="Back to main content">
+	                        <!--<img src="" class="logo logo-display" alt="logo">-->
+	                    </a>
+					</div>
+					<!-- End Header Navigation -->
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#research">Research</a></li>
+							<li><a href="#portfolio">Projects</a></li>
+							<li><a href="#other">Other Works</a></li>
+							<li><a href="">Exercise</a></li>
+							<!-- <li><a href="" class="cv" target="_blank">CV</a></li> -->
+							<!-- <li><a href="#contact">Find me</a></li> -->
+						</ul>
+					</div>
+					<!-- navbar-collapse -->
+				</div>
+			</nav>
+
+
 <body>
 <!-- Content Section -->
 <section id="content">
