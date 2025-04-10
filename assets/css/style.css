@@ -1032,6 +1032,7 @@ Home Section style
   background-attachment: fixed;
   position: relative;
   background-color: white;
+  opacity: 0.8;
 }
 
 .main_home {
