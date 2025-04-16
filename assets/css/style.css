@@ -1027,12 +1027,11 @@ Home Section style
 ==================*/
 
 .home {
-  background: url(../images/bg.jpeg) no-repeat center;
+  background: url(../images/bg.JPEG) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   background-color: white;
-  opacity: 0.5;
 }
 
 .main_home {
